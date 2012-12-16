@@ -42,6 +42,9 @@ public final class ObsidianDestroyer extends JavaPlugin {
 	 */
 	@Override
 	public void onEnable() {
+        PluginDescriptionFile pdfFile = getDescription();
+        version = pdfFile.getVersion();
+        
 		getCommand("obsidiandestroyer").setExecutor(cmdExecutor);
 		getCommand("od").setExecutor(cmdExecutor);
 
