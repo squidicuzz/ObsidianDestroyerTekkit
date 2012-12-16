@@ -44,6 +44,7 @@ public final class ODConfig {
 	private boolean durabilityTimerEnabled = true;
 	private long durabilityTime = 600000L; // 10 minutes
 	private double chanceToDropBlock = 0.7;
+	private boolean waterProtection = true;
 
 	/**
 	 * Associates this object with a plugin
@@ -106,6 +107,7 @@ public final class ODConfig {
 			bukkitConfig.load(configFile);
 
 			explosionRadius = bukkitConfig.getInt("Radius", 3);
+			waterProtection = bukkitConfig.getBoolean("FluidsProtect", true);
 
 			tntEnabled = bukkitConfig.getBoolean("EnabledFor.TNT", true);
 			cannonsEnabled = bukkitConfig.getBoolean("EnabledFor.Cannons", false);
@@ -126,6 +128,7 @@ public final class ODConfig {
 	private void writeDefault() {
 		write("Version", ObsidianDestroyer.getVersion());
 		write("Radius", explosionRadius);
+		write("FluidsProtect", waterProtection);
 
 		write("EnabledFor.TNT", tntEnabled);
 		write("EnabledFor.Cannons", cannonsEnabled);
@@ -276,6 +279,15 @@ public final class ODConfig {
 	 */
 	public double getChanceToDropBlock() {
 		return chanceToDropBlock;
+	}
+	
+	/**
+	 * Returns whether water stops damage to obsidian
+	 * 
+	 * @return whether water stops damage to obsidian
+	 */
+	public boolean getWaterProtection() {
+		return waterProtection;
 	}
 
 	/**
