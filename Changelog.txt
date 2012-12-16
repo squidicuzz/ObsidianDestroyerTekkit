@@ -1,5 +1,12 @@
+Version 2.3
+- Added FluidsProtect option into config.  Can enable damage to obsidian in water.
+- Corrected bug with plugin version reporting null
+
 Version 2.2
 - Corrected Metrics not starting.
+
+Version 2.1.x
+- Fluids stop all damage to obsidian
 
 Version 2.1
 - Removed Vault dependency.

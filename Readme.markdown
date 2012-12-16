@@ -1,6 +1,9 @@
-ObsidianDestroyer plugin v1.3.1<br>
+ObsidianDestroyer plugin v2.3<br>
 by Pandemoneus<br>
-https://github.com/Pandemoneus
+https://github.com/Pandemoneus<br>
+
+Official Maintained<br>
+https://github.com/drtshock/ObsidianDestroyer
 
 How to install:
 ----------------
@@ -16,6 +19,7 @@ How to uninstall:
 Options:
 -----------------
 Radius - determines how far around the origin of the explosion Obsidian can be destroyed (default: 3) WARNING: High values probably cause lag<br>
+FluidsProtect - set to false if you want obsidan to be able to hit by explosions from within water (default: true)<br>
 EnabledFor.TNT - set true if TNT is allowed to destroy Obsidian (default: true)<br>
 EnabledFor.Cannons - set true if you would like the cannons plugin to break obsidian (default: false) https://github.com/DerPavlov/Cannons/<br>
 EnabledFor.Creepers - set true if Creepers are allowed to destroy Obsidian (default: false)<br>
