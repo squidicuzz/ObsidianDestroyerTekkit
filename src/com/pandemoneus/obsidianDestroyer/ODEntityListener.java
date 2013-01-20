@@ -124,7 +124,7 @@ public final class ODEntityListener implements Listener {
 
 		final Block b = at.getBlock();
 
-		if (b.getTypeId() == 49 || b.getTypeId() == 116) {
+		if (b.getTypeId() == 49 || b.getTypeId() == 116 || b.getTypeId() == 136) {
 			// random formula to create unique integers
 			Integer representation = at.getWorld().hashCode() + at.getBlockX() * 2389 + at.getBlockY() * 4027 + at.getBlockZ() * 2053;
 
@@ -170,7 +170,7 @@ public final class ODEntityListener implements Listener {
 
 		final Block b = at.getBlock();
 
-		if (!b.getType().equals(Material.OBSIDIAN) && !b.getType().equals(Material.ENCHANTMENT_TABLE)) {
+		if (!(b.getType().equals(Material.OBSIDIAN) || b.getType().equals(Material.ENCHANTMENT_TABLE) || b.getTypeId() == 136)) {
 			return;
 		}
 
