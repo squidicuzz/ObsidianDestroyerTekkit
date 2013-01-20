@@ -1,4 +1,4 @@
-package com.pandemoneus.obsidianDestroyer;
+package com.pandemoneus.obsidianDestroyerTekkit;
 
 /*
  * Copyright 2011 Tyler Blair. All rights reserved.

@@ -1,4 +1,4 @@
-package com.pandemoneus.obsidianDestroyer;
+package com.pandemoneus.obsidianDestroyerTekkit;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

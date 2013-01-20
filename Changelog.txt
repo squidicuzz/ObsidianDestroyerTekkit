@@ -1,3 +1,6 @@
+Version 2.3.1
+- Added support for tekkit.  Obsidian Microblocks now handled.
+
 Version 2.3
 - Added FluidsProtect option into config.  Can enable damage to obsidian in water.
 - Corrected bug with plugin version reporting null

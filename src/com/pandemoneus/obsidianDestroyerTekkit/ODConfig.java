@@ -1,4 +1,4 @@
-package com.pandemoneus.obsidianDestroyer;
+package com.pandemoneus.obsidianDestroyerTekkit;
 
 import java.io.File;
 import java.io.FileInputStream;

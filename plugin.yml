@@ -1,6 +1,6 @@
 name: ObsidianDestroyer
-main: com.pandemoneus.obsidianDestroyer.ObsidianDestroyer
-version: 2.3
+main: com.pandemoneus.obsidianDestroyerTekkit.ObsidianDestroyer
+version: 2.3.1
 author: ['Pandemoneus', 'squidicuzz', 'drtshock', 'alecgorge', 'Kaos']
 
 commands:

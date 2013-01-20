@@ -1,4 +1,4 @@
-package com.pandemoneus.obsidianDestroyer;
+package com.pandemoneus.obsidianDestroyerTekkit;
 
 import java.util.HashMap;
 import java.util.TimerTask;
